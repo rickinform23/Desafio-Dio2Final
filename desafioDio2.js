@@ -5,7 +5,7 @@ function main() {
     const saldo = calcularSaldo(vitorias, derrotas);
     const nivel = determinarNivel(saldo);
 
-    console.log("O herói tem saldo de" + saldo "vitórias e está no nível" + nivel.);
+    console.log("O herói tem saldo de" + saldo, "vitórias e está no nível" + nivel);
 }
 
 function calcularSaldo(vitorias, derrotas) {
